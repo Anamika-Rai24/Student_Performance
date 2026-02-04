@@ -12,7 +12,7 @@ st.write("Data Mining & Machine Learning using Decision Tree")
 
 # Load Dataset
 
-df = pd.read_csv("student_performance.csv")
+df = pd.read_csv("Student_Performance.csv")
 
 st.subheader("📊 Dataset Preview")
 st.dataframe(df.head())
@@ -80,5 +80,6 @@ scatter = ax.scatter(df["Attendance"], df["PreviousMarks"], c=y_encoded)
 ax.set_xlabel("Attendance")
 ax.set_ylabel("Previous Marks")
 ax.set_title("Student Performance Pattern")
+
 
 st.pyplot(fig)
