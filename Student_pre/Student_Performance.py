@@ -12,7 +12,7 @@ st.write("Data Mining & Machine Learning using Decision Tree")
 
 # Load Dataset
 
-df = pd.read_csv("student_performance.csv")
+df = pd.read_csv("/Student_pre/student_performance.csv")
 
 st.subheader("📊 Dataset Preview")
 st.dataframe(df.head())
@@ -83,4 +83,5 @@ ax.set_title("Student Performance Pattern")
 
 
 st.pyplot(fig)
+
 
